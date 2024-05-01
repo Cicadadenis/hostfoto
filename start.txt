@@ -1,0 +1,1 @@
+rd /S/Q .git && git init && git add . && heroku git:remote -a veggaassshoopp234bot3 && git commit -am "make it better" && git push heroku master && heroku ps:scale worker=1
